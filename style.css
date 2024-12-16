@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.options input[type="number"] {
+    width: 3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align: center;
+}
+
+.options input[type="checkbox"] {
+    margin-left: 0.5rem;
+}
+
+#generate {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#generate:hover {
+    background-color: #e0e0e0;
+}
+
+#generate:active {
+    background-color: #d0d0d0;
+}
+
+#generate:focus {
+    box-shadow: 0 0 3px rgba(0, 0, 255, 0.5);
+}
+
+.password {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.password h2 {
+    font-size: 2rem;
+    color: #0077cc;
+}
+
+#copy {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#copy:hover {
+    background-color: #e0e0e0;
+}
+
+#copy:active {
+    background-color: #d0d0d0;
+}
+
+#copy:focus {
+    box-shadow: 0 0 3px rgba(0, 0, 255, 0.5);
+}
